@@ -1,0 +1,84 @@
+<html>
+<head><title>Formulir Reservasi</title>
+<link rel="stylesheet" href="css/formulir.css">
+</head>
+<body>
+<form action="home.html" method="post">
+<table class="table">
+<tr align:"center">
+  <td><h1 class="logo"><img src="img/logo2.png" style="width: 250px;"></h1></td>
+ <td colspan="2"><b>INPUT DATA RESERVASI LEEBOORUN</td>
+</tr>
+<tr>
+  <td>Nama</td>
+  <td><input type="text" required></td>
+</tr>
+<tr>
+  <td>Alamat</td>
+  <td><input type="text" required></td>
+</tr>
+<tr>
+  <td>Nomor HP</td>
+  <td><input type="text" required></td>
+</tr>
+<tr>
+ <td>Jenis Kelamin</td>
+ <td>
+  <input type="radio" name="pilih" ckecked>Laki-Laki
+  <input type="radio" name="pilih">Perempuan
+ </td>
+ <tr>
+   <td>Jumlah Penumpang</td>
+   <td><select name="Jenis Kelamin">
+     <option>-Jumlah Passenger-</option>
+     <option>1</option>
+     <option>2</option>
+     <option>3</option>
+     <option>4</option>
+     <option>5</option>
+     <option>6</option>
+     <option>7</option>
+     <option>8</option>
+     <option>9</option>
+   </select></td>
+ </tr>
+<tr>
+ <td>Pilihan Layanan</td>
+ <td>
+  <select>
+    <option> 2 Day 1 Night
+    <option> 3 Day 2 Night
+    <option> 4 Day 3 Night
+  </select>
+ </td>
+</tr>
+<tr>
+ <td required>Tujuan</td>
+ <td>
+  <select>
+  <option> Bali Package
+  <option> Jakarta Package
+  <option> Banyuwangi Package
+  <option> Yogyakarta Package
+  <option> Lombok Package
+  <option> Papua Package
+  <option> East Java Package
+  <option> West Java Package
+  </select>
+ </td>
+</tr>
+<tr>
+ <td>Catatan</td>
+ <td>
+  <textarea rows="3" cols="25" placeholder="Penyakit, Mengandung, ataupun Kebutuhan Khusus Lainnya"></textarea>
+ </td>
+</tr>
+<tr align="center">
+ <td colspan="2">
+ <input type="submit" value="Kirim" onClick="alert('Terimakasih Form Anda Telah Ter-Submit, Anda Akan Dihubungi Admin Secepatnya :) ! cek email dari indoleeboorun-2019@unej.ac.id')">
+ </td>
+</tr>
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Leeborun Your Vacations</title>
+	<link rel="stylesheet" href="css/layout.css">
+	<script src="jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo"><img src="img/logo2.png" style="width: 250px;"></h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="destinasi.html">Destination</a></li>
+          <li><a href="testimoni.html">Testimonial</a></li>
+          <li><a href="contact.html">Contact</a></li>
+					<li><a href="index.html">Log Out</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+<div class="mainf">
+    <img src="img/rajaampat.jpg" width="100%">
+</div>
+<div class="tentang">
+<h1>Tentang IndoLeenboorun</h1>
+<h4>Indoleeboorun adalah Trip Organizer yang memberikan Paket wisata dengan harga yang terjangkau dan fasilitas terbaik.
+Kami menjamin keamanan dan kenyamanan para peserta trip selama mengikuti trip kami. Indoleeboorun telah memiliki
+cukup pengalaman dalam mengatur opentrip, private trip, maupun company gathering.</h4>
+</div>
+<div class="row">
+    <div class="column" style="background-color:#365ca7;">
+      <h2 style="color: white;"><center>
+				Papua Package
+			</center></h2>
+      <img src="img/wll.jpg" width="100%">
+      <p>Contains : Popular Tourist Destination (Sentani Lake, Wamena, Teluk Cendrawasih, Biak, Lorentz  National Park), Food, Hotel, and Transportation </p>
+			<h1 style="color: white; margin:20px;"> Rp.1.750.000/pax</h1>
+			<form class="selengkapnya" action="destinasi.html" method="post">
+				<center>
+      	<input type="submit" name="" value="selengkapnya">
+			</center>
+      </form>
+    </div>
+    <div class="column" style="background-color:#3d69bf;">
+      <h2 style="color: white;"><center>
+				Bali Package
+			</center></h2>
+      <img src="img/wlo.jpg" width="100%">
+      <p>Contains : Popular Tourist Destination (Tanah Lot, Beratan, Kuta, Sanur, Garuda Kencana Statue, etc), Food, Hotel, and Transportation</p>
+			<h1 style="color: white; margin:20px;"> Rp.700.000/pax</h1>
+			<form class="selengkapnya" action="destinasi.html" method="post">
+				<center>
+      	<input type="submit" name="" value="selengkapnya">
+			</center>
+      </form>
+    </div>
+    <div class="column" style="background-color:#4679dd;">
+      <h2 style="color: white;"><center>
+				Jakarta Package
+			</center>
+			</h2>
+      <img src="img/wlk.jpg" width="100%">
+      <p>Contains : Popular Tourist Destination (Monas, Kota Tua, Taman Mini, Ragunan Zoo, Jakarta's History Museum), Food, Hotel, and Transportation</p>
+			<h1 style="color: white; margin:20px;"> Rp.600.000/pax</h1>
+      <form action="destinasi.html" method="post">
+				<div class=selengkapnya>
+					<center>
+				<input type="submit" name="" value="selengkapnya">
+			</center>
+			  </div>
+      </form>
+    </div>
+  </div>
+
+	<script type="text/javascript">
+    $(function(){
+			$('a[href^="#"]').on('click', function(e){<br><br>
+     });
+		 $target = $(this.hash);
+		 $jarak = 0;
+		$('html, body').stop().animate(
+    {
+        'scrollTop' : $target.offset().top - $jarak
+    },
+    500, //durasi dalam milisekon
+    'swing', //efek transisi (opsi : swing / linear)
+    function(){
+        window.location.hash = target;
+    }
+);
+    });
+		</script>
+</body>
+</html>

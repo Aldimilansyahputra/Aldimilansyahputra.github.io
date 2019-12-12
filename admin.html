@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="jquery-1.11.1.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/layout.css">
+    <script src="jquery-1.11.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <title>Admin Page</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="logo"><img src="img/logo2.png" style="width: 250px;"></h1>
+        <nav>
+          <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="index.html">Log out</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <center>
+    <h1 style="">HALAMAN ADMIN</h1> </center>
+  <div class="row">
+      <div class="column" style="background-color:#365ca7;">
+        <h2 style="color: white;"><center>
+  				Tambah Destinasi
+  			</center></h2>
+        <center>
+        <textarea rows="3" cols="25" placeholder="Deskripsi Wisata"></textarea></br>
+        <input type="text" placeholder="Harga" required>
+        <input type="text" placeholder="Nama" required>
+      </center>
+        <form class="selengkapnya" action="#l" method="post">
+  				<center>
+        	<input type="submit" name="" value="selengkapnya" onClick="alert('Destinasi Ditambahkan')">
+  			</center>
+        </form>
+      </div>
+
+      <div class="column" style="background-color:#3d69bf;">
+        <h2 style="color: white;"><center>
+  				Edit About
+  			</center></h2>
+        <center>
+        <textarea rows="3" cols="25" placeholder="Indoleeboorun adalah Trip Organizer yang memberikan Paket wisata dengan..."></textarea></br>
+        <input type="radio" name="pilih">Admin Yami
+      </center>
+  			<form class="selengkapnya" action="#" method="post">
+  				<center>
+        	<input type="submit" name="" value="Submit" onClick="alert('About Telah Diperbarui')">
+  			</center>
+        </form>
+      </div>
+
+      <div class="column" style="background-color:#4679dd;">
+        <h2 style="color: white;"><center>
+  				Tambah Testimoni
+  			</center>
+  			</h2>
+        <center>
+          <textarea rows="3" cols="25" placeholder="Penyakit, Mengandung, ataupun Kebutuhan Khusus Lainnya"></textarea></br>
+          <button type="button" name="button" value="Upload Foto">Upload Foto</button>
+        </center>
+        <form action="#" method="post">
+  				<div class=selengkapnya>
+  					<center>
+  				<input type="submit" name="" value="submit" onClick="alert('Testimoni telah tersubmit')">
+  			</center>
+  			  </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
